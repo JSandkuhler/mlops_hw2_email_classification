@@ -3,3 +3,6 @@ Sports
 Food
 Technology
 Math
+School
+Finance
+Spam

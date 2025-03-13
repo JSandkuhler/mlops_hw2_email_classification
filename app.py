@@ -52,7 +52,7 @@ def classify_with_get():
     classifications = classify_email(text)
     return jsonify({"message": "Email classified", "classifications": classifications}), 200
 
-@app.route("/api/v1/add-class/", methods=['POST'])  # ✅ New API added
+@app.route("/api/v1/add-class/", methods=['POST'])  # New API added
 def add_class():
     if request.is_json:
         data = request.get_json()
